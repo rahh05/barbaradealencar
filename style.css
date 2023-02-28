@@ -1,89 +1,38 @@
 /*Corpo*/
 body {
-    font: normal 13pt Arial;
-    background-image: url(https://i0.wp.com/multarte.com.br/wp-content/uploads/2018/12/fundo-marrom-claro20.jpg?w=626&ssl=1);
+    font: normal 14pt Arial;
+    background-image: url(../HTML-CSS/JPGs/foto3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-/*Botão da Revolução Pernambucana*/
-.btn-revolucao {
-    font: normal 11pt Arial;
-    left: 20%;
-    background: none;
-    border: 0;
-    position: relative;
-    font-weight: bold;
-    transition: all 500ms ease-in-out
+/*Cabeçalho*/
 
-}
-button:after {
-    content: '';
-
-    transition: inherit;
-
-    width: 35px;
-    height: 35px;
-    border-radius: 50%;
-    background: #ffffff;
-
-    position: absolute;
-    top: -50%;
-    left: -10%;
-    opacity: 0.3;
-    z-index: - 1;
-}
-button:hover:after {
-    width: calc(100% + 20px);
-    border-radius: 20px;
-    opacity: 0.3;
-}
-/*Botão da Confederação do Equador*/
-.btn-confederacao {
-    font: normal 11pt Arial;
-    left: 40%;
-    background: none;
-    border: 0;
-    position: relative;
-    font-weight: bold;
-    transition: all 500ms ease-in-out;
-}
-button:after {
-    content: '';
-
-    transition: inherit;
-
-    width: 35px;
-    height: 35px;
-    border-radius: 50%;
-    background: #ffffff;
-
-    position: absolute;
-    top: -50%;
-    left: -10%;
-    opacity: 0.3;
-    z-index: - 1;
-}
-button:hover:after {
-    width: calc(100% + 20px);
-    border-radius: 20px;
-    opacity: 0.3;
-}
-
-img {
-    width: 100px;
-    height: 105px;
-    border-radius: 50% 50% 50% 50%;
-    position: absolute;
-
-    top: 10px;
-    right: 25px;
-
-}
 .head {
     font: normal 40pt Arial;
-    text-align:calc(50px + 40px);
+    text-align:center;
     background-color: #e4ccb8; 
     width: 100%;
-    height: 110px;
+    height: 70px;
+}
+
+/*Corpo*/
+.poema {
+    text-align: center;
+}
+
+.ilus {
+text-align: center;
+}
+
+.charge {
+    text-align: center;
+}
+
+ul {
+    justify-content: space-around;
+}
+
+.equipe {
+    text-align: center;
 }
